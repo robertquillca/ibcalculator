@@ -1,8 +1,8 @@
 /**
- * Predicted grade calculator
- * (c) 2021 Joseph Azrak 
- * https://josephazrak.codes/gradecalc
- *
+ * IB Diploma grade calculator
+ * (c) 2021 Joseph Azrak | v1.2.0
+ * (c) 2022 Robert Quillca | v2.0.0 ahead
+ * 
  * I am very, very sorry for this code. Written in a hurry -- no good practice used
  * anywhere here.
  * 
@@ -11,8 +11,7 @@
 
 const VERSION = "1.6.0";
 const JVERSION = "20210630ja-disa";
-
-let ready = false; // set to true after API response is finished!
+let ready = true; // set to true after API response is finished!
 let curve;
 
 // cookie funcs -- thanks stackoverflow ^^
