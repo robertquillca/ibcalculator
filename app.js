@@ -7,7 +7,7 @@
  * anywhere here.
  * 
  * Minified on: https://closure-compiler.appspot.com with option: // @language_out ecmascript5
- */
+*/
 
 const VERSION = "1.6.0";
 const JVERSION = "20210630ja-disa";
